@@ -39,4 +39,4 @@ jobs:
           uses: docker/build-push-action@v4
           with:
             push: true
-            tags: amtronics/dotnettemplate:${{github.ref}} 
+            tags: amtronics/dotnettemplate:${{github.ref_name}} 
